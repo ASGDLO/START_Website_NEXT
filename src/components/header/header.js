@@ -15,6 +15,7 @@ export default function Header({ className }) {
         <Flex as="nav" sx={styles.nav}>
           {menuItems.map((menuItem, i) => (
             <Link
+              passHref={true}
               activeClass="active"
               to={menuItem.path}
               spy={true}
@@ -27,13 +28,15 @@ export default function Header({ className }) {
             </Link>
           ))}
         </Flex>
-        <Button
-          className="donate__btn"
-          variant="secondary"
-          aria-label="Get Started"
-        >
-          Go To Marketplace
-        </Button>
+        <Link href="https://stackoverflow.com/" passHref={true}>
+          <Button
+            className="donate__btn"
+            variant="secondary"
+            aria-label="Get Started"
+          >
+            Go To Marketplace
+          </Button>
+        </Link>
         <MobileDrawer />
       </Container>
     </header>

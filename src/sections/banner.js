@@ -32,7 +32,7 @@ export default function Banner() {
 
 const styles = {
   banner: {
-    pt: ["120px", "145px", "155px", "170px", null, null, "180px", "215px"],
+    pt: ["120px", "145px", "155px", "170px", null, null, "10px", "215px"],
     pb: [2, null, 0, null, 2, 0, null, 5],
     position: "relative",
     zIndex: 2,
