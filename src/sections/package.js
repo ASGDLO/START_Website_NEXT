@@ -155,7 +155,7 @@ const packages = {
       description:
         "The robot will continue to automatically make purchases at the specified fund price along with the charged profit.",
       priceWithUnit: "SALE",
-      buttonText: "Create account",
+      buttonText: "SELL NFT",
       anotherOption: "",
       points: [
         {
@@ -192,7 +192,7 @@ const packages = {
       description:
         "when  you purchasing nft, we evaluate the asset based on the usdt value of Ethereum, and defend against a decline in value with a long-short strategy.",
       priceWithUnit: "SALE",
-      buttonText: "Buy NFT",
+      buttonText: "SELL NFT",
       anotherOption: "",
       points: [
         {
