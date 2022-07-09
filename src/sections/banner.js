@@ -54,7 +54,7 @@ const styles = {
       bottom: -10,
       left: 9,
       height: "101%",
-      width: "103%",
+      width: "70%",
       zIndex: -1,
       backgroundImage: `url(${ShapeLeft})`,
       backgroundRepeat: `no-repeat`,
