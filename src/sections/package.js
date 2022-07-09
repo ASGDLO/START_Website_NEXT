@@ -231,12 +231,12 @@ const responsive = {
     draggable: false,
   },
   tablet: {
-    breakpoint: { max: 1023, min: 640 },
+    breakpoint: { max: 1523, min: 640 },
     items: 2,
     draggable: true,
   },
   mobile: {
-    breakpoint: { max: 639, min: 0 },
+    breakpoint: { max: 1500, min: 200 },
     items: 1,
     draggable: true,
   },
