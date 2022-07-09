@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui";
 import { Container, Box, Heading, Text, Image, Button } from "theme-ui";
 
-// import ShapeLeft from "assets/shape-left.svg";
+import ShapeLeft from "assets/shape-left.svg";
 import ShapeRight from "assets/shape-right.png";
 
 export default function Banner() {
@@ -56,7 +56,7 @@ const styles = {
       height: "101%",
       width: "103%",
       zIndex: -1,
-      // backgroundImage: `url(${ShapeLeft})`,
+      backgroundImage: `url(${ShapeLeft})`,
       backgroundRepeat: `no-repeat`,
       backgroundPosition: "bottom left",
       backgroundSize: "100%",
