@@ -30,6 +30,12 @@ export default function Header({ className }) {
         </Flex>
         <Link href="https://stackoverflow.com/" passHref={true}>
           <Button
+            onClick={() => {
+              window.location.assign(
+                "https://blockchain-fund-nft.vercel.app/",
+                "_ blank"
+              );
+            }}
             className="donate__btn"
             variant="secondary"
             aria-label="Get Started"

@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
 import { Container, Box, Heading, Text, Image, Button } from "theme-ui";
-import BannerImg from "assets/banner-thumb.gif";
+
 import ShapeLeft from "assets/shape-left.svg";
 import ShapeRight from "assets/shape-right.png";
 
@@ -19,7 +19,19 @@ export default function Banner() {
             can easily invest cryptocurrencies in hedge funds by purchasing
             NFTs.
           </Text>
-          <Button variant="primary">Explore</Button>
+          <Button
+            onClick={() => {
+              window.location.assign(
+                "https://blockchain-fund-nft.vercel.app/",
+                "_ blank"
+              );
+            }}
+            className="donate__btn"
+            variant="primary"
+            aria-label="Get Started"
+          >
+            Explore
+          </Button>
         </Box>
 
         <Box sx={styles.banner.imageBox}>

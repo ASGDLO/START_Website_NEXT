@@ -12,7 +12,7 @@ const data = {
     "AAG provides a complete solution to get started with investing Hedge Fund utilizing \
      NFT including: Binance brokerages, robo-bider. We provide the protocols, developer libraries, and sample dApps to get you started in minutes.",
   btnName: "Get Started",
-  btnURL: "#",
+  btnURL: "https://blockchain-fund-nft.vercel.app/",
 };
 
 export default function CoreFeature() {
