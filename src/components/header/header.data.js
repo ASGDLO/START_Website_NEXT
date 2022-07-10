@@ -9,7 +9,7 @@ export default [
   },
   {
     path: 'pricing',
-    label: 'Pricing',
+    label: 'Details',
   },
   {
     path: 'testimonial',
